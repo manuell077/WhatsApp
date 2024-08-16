@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Whatssap</title>
+    <link rel="stylesheet" href="cabecera.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <div class="celular">
     <!-- Encabezado -->
     <header class="cabecera">
+            <div class="cabecera__arriba">
+            <span class="cabecera__titulo">WhatsApp
+            </span>
+            
+               <div class="cabecera__iconos">
+                    
+                    <i class='cabecera__lupa bx bx-search-alt-2'></i>
+                    <i class='cabecera__menu bx bx-dots-vertical-rounded'></i>
+            
+                </div>
 
+            </div>
 
-     <h1 class="cabecera__titulo">WhatsApp </h1>
-     <i class="cabecera__lupa">Lupa</i>
-     <i class="cabecera__menu">Menu</i>
-     <i class="cabecera__foto">Foto</i>
-     <ul class="cabecera__lista">
-       <li class="cabecera__item">Chats</li>
-       <li class="cabecera__item cabecera__item--status">Status</li>
-       <li class="cabecera__item cabecera__item--calls">Calls</li>  
-
-     </ul> 
-
+            <div class="cabecera__contenedorLista">    
+            <nav class="cabecera__navegacion">
+                <i class='cabecera__camara bx bxs-camera' ></i>
+                  
+                    <a href="#" class="cabecera__link ">CHATS</a>
+                    <a href="#" class="cabecera__link cabecera__link--status" >STATUS</a>
+                    <a href="#" class="cabecera__link cabecera__link--calls">CALLS</a> 
+                
+                
+            </nav> 
+        </div>
 
     </header>
 
@@ -35,6 +49,9 @@
 
     </div>
 
+
+    
+</div>
 
 </body>
 </html>
