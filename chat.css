@@ -1,8 +1,16 @@
+.chats{
+    overflow-y: scroll;
+    max-height: 800px;
+}
+
+
 .chat{
     padding-top: 10px;
     display: flex;
+    
     justify-content: space-around;
     align-content: center;
+    
 }
 
 
@@ -47,7 +55,14 @@
 
 .chat__hora--sebastian{
     margin-right: 14px;
+
 }
+
+.chat__mensaje--sebastian::before{
+    content: "✔✔ ";
+    color: var(--colorAzul);
+}
+
 .chat__mensaje--sebastian{
     margin-left: 10px;
 }
@@ -58,4 +73,13 @@
 
 .chat__nombre--helder{
     margin-right: 10px;
+    
+}
+.chat__mensaje--helder{
+    font-style: italic;
+    color: var(--colorEscribiendo);
+}
+
+.chat__mensaje--steven::before{
+    content: "✔ ";
 }
