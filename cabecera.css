@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(chat.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Moderustic:wght@300..800&display=swap');
 *{
   padding: 0; 
   margin: 0;
@@ -10,6 +11,7 @@
 }
 
 .celular{
+    position: relative;
     margin: 0 auto ;
     width: 450px;
     height: 100vh;
@@ -101,12 +103,30 @@
     color: var(--colorBlanco);
 }
 
+.cabecera__link--status:active{
+      text-decoration:underline;
+}
 
+.cabecera__link--calls:active{
+     text-decoration: underline;
+}
 
 .cabecera__camara{
     padding-right: 20px ;
 }
-
+.celular__mensaje{
+   position: absolute;
+   width: 80px;
+   color: var(--colorBlanco);
+   font-size: 30px;
+   padding-top: 20px ;
+   text-align: center;
+   height: 70px;
+   bottom: 20px;
+   background-color: var(--colorVerde);
+   border-radius: 5px;
+   right: 10px;
+}
 
 
 

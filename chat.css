@@ -1,3 +1,61 @@
 .chat{
-    border: 1px solid black;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+
+
+
+.chat__imagen{
+    
+    border-radius: 50%;
+    height: 90px;
+    width: 100px;
+}
+
+
+.chat__nombre{
+    font-family: "Moderustic", sans-serif;
+    padding-bottom: var(--tamañoVeinte);
+    padding-right: 40px;
+}
+.chat__mensaje{
+    color: var(--colorGris);
+    font-size: 18px;
+    
+}
+
+.chat__hora{
+    font-family: "Moderustic", sans-serif;
+    color: var(--colorGris);
+    padding-top: 50%;
+}
+
+.chat__imagen--sebastian{
+    margin-left: 10px;
+}
+.chat__nombre--sebastian{
+    margin-left: 10px;
+}
+
+.chat__nombre--luis{
+    margin-right: 40px;
+}
+
+.chat__hora--sebastian{
+    margin-right: 14px;
+}
+.chat__mensaje--sebastian{
+    margin-left: 10px;
+}
+
+.chat__nombre--steven{
+    margin-right: 16px;
+}
+
+.chat__nombre--helder{
+    margin-right: 10px;
 }
