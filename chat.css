@@ -19,6 +19,8 @@
     
     width: 200px;
     max-height: 100px;
+    
+    overflow: hidden;
 }
 
 .chat__imagen{
@@ -37,6 +39,7 @@
 .chat__mensaje{
     color: var(--colorGris);
     font-size: 18px;
+    
     
 }
 
@@ -84,4 +87,12 @@
 
 .chat__mensaje--steven::before{
     content: "✔ ";
+}
+
+.chat__nombre--ayer{
+    margin-left: 11px;
+}
+
+.chat__mensaje--ayer{
+    margin-left: 15px;
 }
