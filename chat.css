@@ -1,6 +1,6 @@
 .chats{
-    overflow-y: scroll;
-    max-height: 800px;
+    overflow-y:scroll;
+    height: 830px;
 }
 
 
@@ -15,7 +15,11 @@
 
 
 
-
+.chat__contenido{
+    
+    width: 200px;
+    max-height: 100px;
+}
 
 .chat__imagen{
     
@@ -49,9 +53,7 @@
     margin-left: 10px;
 }
 
-.chat__nombre--luis{
-    margin-right: 40px;
-}
+
 
 .chat__hora--sebastian{
     margin-right: 14px;
