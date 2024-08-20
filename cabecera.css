@@ -11,7 +11,7 @@
 }
 
 .celular{
-    
+    position: relative;
     margin: 0 auto ;
     width: 450px;
     height: 100vh;
@@ -115,20 +115,24 @@
 .cabecera__camara{
     padding-right: 20px ;
 }
-.celular__mensaje{
-   position: absolute;
-   width: 80px;
+
+.celularmensajeContainer{
+    position: absolute;
+    width: 80px;
    color: var(--colorBlanco);
    font-size: 30px;
    padding-top: 20px ;
    text-align: center;
    height: 70px;
-   bottom: 20px;
-   margin-right: 290px;
+   margin-right: 30px;
    background-color: var(--colorVerde);
    border-radius: 5px;
-   right: 10px;
+   right: 0;
+
 }
+
+
+
 
 
 
