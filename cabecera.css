@@ -17,6 +17,8 @@
     height: 90vh;
     border: 5px solid black;
     overflow: hidden;
+
+    
     
 }
 
@@ -35,7 +37,7 @@
      
      background-color: var(--colorFondo) ;
      color: var(--colorBlanco);
-     height: 100px;
+     height: 60px;
      filter: drop-shadow(1px 0px 9px var(--colorNegro));
 
      

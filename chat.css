@@ -1,6 +1,6 @@
-.chats{
+.chats{    
     overflow-y:scroll;
-    height: 100%;
+    height: 750px;
 }
 
 
@@ -60,6 +60,7 @@
     font-family: "Moderustic", sans-serif;
     color: var(--colorGris);
     padding-top: 30%;
+    
 }
 
 .chat__imagen--sebastian{
