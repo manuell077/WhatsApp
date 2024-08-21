@@ -8,12 +8,14 @@
     padding-top: 10px;
     display: flex;
     
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     
 }
 
-
+.chat__perfil{
+    width: 200px;
+}
 
 .chat__contenido{
     
@@ -41,12 +43,20 @@
     font-size: 18px;
     
     
+    
+}
+
+.chat__ultimoMensaje{
+    width: 200px;
+    text-align: center;
+    
 }
 
 .chat__hora{
+
     font-family: "Moderustic", sans-serif;
     color: var(--colorGris);
-    padding-top: 50%;
+    padding-top: 30%;
 }
 
 .chat__imagen--sebastian{
