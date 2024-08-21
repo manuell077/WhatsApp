@@ -38,11 +38,12 @@
 .chat__nombre{
     font-family: "Moderustic", sans-serif;
     padding-bottom: var(--tamañoVeinte);
-    padding-right: 40px;
+    margin-left: 10%;
 }
 .chat__mensaje{
     color: var(--colorGris);
     font-size: 18px;
+    margin-left: 10%;
     
     
     
