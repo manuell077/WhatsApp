@@ -1,0 +1,32 @@
+.Buttons{
+    background-color: var(--colorFondo);
+    font-family: "Inter", sans-serif; 
+    display: flex;
+    color: var(--colorBlanco);
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.Buttons label{
+    cursor: pointer;
+}
+
+.box status{
+    opacity: 0;
+    
+}
+
+#chats,#estados,#llamadas{
+    display: none;
+}
+
+
+
+
+#chats:checked ~ .chats{
+     opacity: 1;
+     
+}
+
