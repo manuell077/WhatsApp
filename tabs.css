@@ -36,11 +36,13 @@
 }
 
 
-.tabs__menu:checked:nth-child(1)~.Buttons .tabs__opcion:nth-child(1), .tabs__menu:checked:nth-child(2)~.Buttons .tabs__opcion:nth-child(2), .tabs__menu:checked:nth-child(3)~.Buttons .tabs__opcion:nth-child(3) {
-    border-bottom: 5px solid #fff;
+#chats:checked~.Buttons .tabs__opcion:nth-child(1),
+#estados:checked~.Buttons .tabs__opcion:nth-child(2),
+#llamadas:checked~.Buttons .tabs__opcion:nth-child(3){
+
+    border-bottom: 5px solid var(--colorBlanco);
     opacity: 1;
 }
-
 
 
 
