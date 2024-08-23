@@ -4,7 +4,7 @@
 .chats{    
     overflow-y:scroll;
     height: 700px;
-    
+    flex: 1;
 }
 
 
@@ -13,7 +13,7 @@
     display: flex;
     
     justify-content: space-between;
-    align-content: center;
+    
     
 }
 
@@ -67,19 +67,10 @@
     
 }
 
-.chat__imagen--sebastian{
-    margin-left: 10px;
-}
-.chat__nombre--sebastian{
-    margin-left: 10px;
-}
 
 
 
-.chat__hora--sebastian{
-    margin-right: 14px;
 
-}
 
 .chat__mensaje--sebastian::before{
     content: "✔✔ ";

@@ -1,0 +1,59 @@
+.calls{
+    position: relative;
+    flex: 1;
+}
+
+.callsMias{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.callsPerfil{
+    position: relative;
+    width: 100px;
+    margin: var(--tamañoVeinte);
+}
+
+.calls__imagen{
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.calls__contenido{
+    position: relative;
+    margin-right: 40px;
+    width: 200px;
+    font-family: "Moderustic", sans-serif;
+}
+
+.callsRecientes{
+    display: flex;
+}
+
+.calls__contenido--reciente{
+    padding-left: 20px;
+}
+
+.calls__mensaje--llamada::before{
+    content: "↙";
+    color: var(--colorEscribiendo);
+}
+
+.calls__iconollamada{
+    position: absolute;
+    background-color: var(--colorVerde);
+    border-radius: 5px;
+    width: 80px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorBlanco);
+    right: 35px;
+    bottom: 30px;
+}

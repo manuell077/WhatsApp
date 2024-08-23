@@ -13,20 +13,35 @@
     cursor: pointer;
 }
 
-.box status{
-    opacity: 0;
-    
-}
 
-#chats,#estados,#llamadas{
+
+#chats, #estados, #llamadas{
     display: none;
 }
 
-
-
-
-#chats:checked ~ .chats{
-     opacity: 1;
-     
+#chats:checked ~ .contenido{
+    left: 0;
+    transition: 0.5s;
+    
 }
+
+#estados:checked ~ .contenido{
+    left: -430px;
+    transition: 0.5s;
+}
+
+#llamadas:checked ~ .contenido{
+    left: -860px;
+    transition: 0.5s;
+}
+
+
+.tabs__menu:checked:nth-child(1)~.Buttons .tabs__opcion:nth-child(1), .tabs__menu:checked:nth-child(2)~.Buttons .tabs__opcion:nth-child(2), .tabs__menu:checked:nth-child(3)~.Buttons .tabs__opcion:nth-child(3) {
+    border-bottom: 5px solid #fff;
+    opacity: 1;
+}
+
+
+
+
 

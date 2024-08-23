@@ -1,0 +1,107 @@
+.status{
+    position: relative;
+    flex: 1;
+}
+
+.status__contenedorMe{
+    display: flex;
+}
+
+.status__perfil{
+    position: relative;
+    width: 100px;
+    margin: var(--tamañoVeinte);
+}
+.status__imagen{
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 90px;
+}
+
+.status__contenido{
+    position: relative;
+    margin-top: var(--tamañoVeinte);
+    width: 200px;
+    font-family: "Moderustic", sans-serif;
+    
+    
+}
+
+.status__mensaje{
+    color: var(--colorGris);
+
+}
+
+.status__añadir{
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--colorVerde);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    border: 3px solid #fff;
+    
+}
+
+.status__nuevosEstados{
+    margin-left: 20px;
+}
+
+.status__nuevosEstadosTexto{
+    font-family: "Moderustic", sans-serif;
+    font-size: 17px;
+    color: var(--colorGris);
+}
+
+.status__nuevos , .status__viejos{
+    display: flex;
+}
+
+.status__imagen--sinVer{
+    box-shadow: 0 0 0 2px var(--colorBlanco), 0 0 0 4px var(--colorVerde);
+}
+
+.status__imagen--vistos{
+    box-shadow: 0 0 0 2px var(--colorBlanco), 0 0 0 4px var(--colorGris);
+}
+
+
+.status__contenedorIconoCamara{
+    position: absolute;
+    background-color: var(--colorVerde);
+    color: var(--colorBlanco);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 80px;
+    font-size: 30px;
+    right: 35px;
+    bottom: 30px;
+}
+
+
+.status__contenedorIconoEscribir{
+    position: absolute;
+    background-color: var(--colorBlanco);
+    color: var(--colorNegro);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 80px;
+    font-size: 30px;
+    right: 35px;
+    bottom: 120px;
+    border: 3px solid var(--colorNegro);
+
+}

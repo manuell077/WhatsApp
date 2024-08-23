@@ -31,17 +31,21 @@
               <!-- Menu de navegacion -->
               <div class="tabs">
        
-                  <input type="radio" name="group" id="chats" checked>
-                  <input type="radio" name="group" id="estados">
-                  <input type="radio" name="group" id="llamadas">
+                  <input type="radio" name="group" id="chats" class="tabs__menu" checked>
+                  <input type="radio" name="group" id="estados" class="tabs__menu">
+                  <input type="radio" name="group" id="llamadas" class="tabs__menu">
             
                 <div class="Buttons">
-                  <label for="chats">CHATS</label>
-                  <label for="estados">STATUS</label>
-                  <label for="llamadas">CALLS</label> 
+                  <label for="chats" class="tabs__opcion">CHATS</label>
+                  <label for="estados" class="tabs__opcion">STATUS</label>
+                  <label for="llamadas" class="tabs__opcion">CALLS</label> 
             
             
                 </div>
+
+    
+   
+    <div class="contenido">
 
 
 
@@ -79,7 +83,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen chat__imagen--sebastian" src="Negrito.jpg">
+              <img class="chat__imagen chat__imagen--sebastian" src="ejecutivo.webp">
   
         </div>
   
@@ -105,7 +109,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="sinFoto.jpg">
   
         </div>
   
@@ -131,7 +135,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="mrTrance.jpg">
   
         </div>
   
@@ -157,7 +161,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="luis.jpg">
   
         </div>
   
@@ -182,7 +186,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="Peon.jpeg">
   
         </div>
   
@@ -207,14 +211,14 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="messi.jpg">
   
         </div>
   
        <div class="chat__contenido">
   
               <h2 class="chat__nombre chat__nombre--luis">Esteban</h2>
-              <p class="chat__mensaje chat__mensaje--luis">Elegante Como el pegante</p>
+              <p class="chat__mensaje chat__mensaje--luis">Elegante</p>
   
       </div>
        
@@ -232,7 +236,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="flex125.webp">
   
         </div>
   
@@ -258,7 +262,7 @@
 
         <div class="chat__perfil">  
   
-              <img class="chat__imagen" src="Negrito.jpg">
+              <img class="chat__imagen" src="vini.webp">
   
         </div>
   
@@ -285,14 +289,14 @@
 
             <div class="chat__perfil">  
       
-                  <img class="chat__imagen" src="Negrito.jpg">
+                  <img class="chat__imagen" src="elon.webp">
       
             </div>
       
            <div class="chat__contenido">
       
                   <h2 class="chat__nombre chat__nombre--luis">Edgar (Jefe)</h2>
-                  <p class="chat__mensaje chat__mensaje--luis">Porque no ha llegado ??</p>
+                  <p class="chat__mensaje chat__mensaje--luis">Porque no ha...</p>
       
           </div>
            
@@ -315,12 +319,189 @@
 
       </div>
    </div>
-    
-     <div class="box status">
-        <h2>Hola</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum obcaecati cum, aut quidem repellat earum, exercitationem fuga voluptatem adipisci molestias fugiat voluptas nobis, aspernatur incidunt maiores dignissimos dolore sit voluptate!</p>
 
-     </div>
+   <!-- Status -->
+    <div class="status">
+         
+      <div class="status__contenedorMe">
+      <!-- Estado mio -->
+      <div class="status__perfil">  
+
+            <img class="status__imagen " src="sinFoto.jpg">
+            <span class="status__añadir">+</span>
+      </div>
+
+     <div class="status__contenido">
+
+            <h2 class="status__nombre ">Mi estado</h2>
+            <p class="status__mensaje  ">Añadir a mis estados</p>
+            
+
+    </div>
+    </div>
+    <!-- Texto reciente -->
+     
+
+    <div class="status__nuevosEstados">
+
+      <h2 class="status__nuevosEstadosTexto">Recientes</h2>
+    </div>
+     
+    <!-- Estado 1 -->
+    <div class="status__nuevos">
+    <div class="status__perfil">  
+
+            <img class="status__imagen status__imagen--sinVer " src="Negrito.jpg">
+            
+      
+      </div>
+
+     <div class="status__contenido">
+
+            <h2 class="status__nombre ">Camilo</h2>
+            <p class="status__mensaje  ">Hace 20 minutos</p>
+
+
+    </div>
+</div>
+
+    <!-- Estado 2 -->
+    <div class="status__nuevos">
+      <div class="status__perfil">  
+  
+              <img class="status__imagen status__imagen--sinVer " src="mrTrance.jpg">
+              
+        
+        </div>
+  
+       <div class="status__contenido">
+  
+              <h2 class="status__nombre ">Helder</h2>
+              <p class="status__mensaje  ">Hace 40 minutos</p>
+  
+  
+      </div>
+  </div>     
+  
+
+  <!-- Texto Visto -->
+   <div class="status__nuevosEstados">
+
+      <h2 class="status__nuevosEstadosTexto">Vistos</h2>
+    </div>
+
+    <!-- Estado visto 2  -->
+    <div class="status__viejos">
+      <div class="status__perfil">  
+  
+              <img class="status__imagen status__imagen--vistos " src="messi.jpg">
+              
+        
+        </div>
+  
+       <div class="status__contenido">
+  
+              <h2 class="status__nombre ">Esteban</h2>
+              <p class="status__mensaje  ">Hace 2 horas</p>
+  
+  
+      </div>
+  </div> 
+  
+    <div class="status__contenedorIconoCamara">
+      <i class='status__camara bx bxs-camera'></i>
+    </div>
+
+    <div class="status__contenedorIconoEscribir">
+      <i class='status__escribir bx bx-pencil'></i>
+    </div>
+
+</div>
+    
+    <!-- Calls -->
+    <div class="calls">
+       
+      <!-- Crear enlace de llamada -->
+      <div class="callsMias">
+          
+            <div class="calls__perfil">  
+
+                  <img class="calls__imagen  " src="link.png">
+                  
+            
+            </div>
+      
+           <div class="calls__contenido">
+      
+                  <h2 class="calls__nombre ">Crear enlace de llamada</h2>
+                  <p class="calls__mensaje  ">Comparte un enlace para tu llamada</p>
+      
+      
+          </div>
+ 
+
+      </div>
+     
+       <!--Texto Reciente  -->
+       <div class="status__nuevosEstados">
+
+            <h2 class="status__nuevosEstadosTexto">Recientes</h2>
+          </div>
+
+
+
+      <!-- Llamada 1 -->
+       
+      <div class="callsRecientes">
+          
+            <div class="calls__perfil">  
+
+                  <img class="calls__imagen  " src="Negrito.jpg">
+                  
+            
+            </div>
+      
+           <div class="calls__contenido calls__contenido--reciente">
+      
+                  <h2 class="calls__nombre ">Camilo</h2>
+                  <p class="calls__mensaje  calls__mensaje--llamada ">10/08/24 3:00AM</p>
+      
+      
+          </div>
+ 
+
+      </div>
+
+      <!-- llamada 2 -->
+         
+      <div class="callsRecientes">
+          
+            <div class="calls__perfil">  
+
+                  <img class="calls__imagen  " src="sinFoto.jpg">
+                  
+            
+            </div>
+      
+           <div class="calls__contenido calls__contenido--reciente">
+      
+                  <h2 class="calls__nombre ">Steven</h2>
+                  <p class="calls__mensaje  calls__mensaje--llamada ">08/08/24 4:00PM</p>
+      
+      
+          </div>
+ 
+
+      </div>
+
+      
+      <div class="calls__iconollamada">
+            <i class='calls__icono bx bxs-phone'></i>
+      </div>
+
+    </div>
+    
+    
 
 
     
